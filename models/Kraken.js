@@ -18,7 +18,7 @@ export default class Kraken {
     this.tentacleCount = tentacleCount
     this.alignment = 'chaotic evil'
     this.type = 'monstrosity'
-    this.environment = 'underwater'
+    this.environment = 'coastal'
   }
 
   krakenAttack(enemy) {

@@ -24,6 +24,6 @@ export default class Leviathan {
     console.log(`${player} summons a ${this.size} leviathan named ${this.name}.`)
   }
   leviathanAttack(enemy) {
-    console.log(`${this.name} uses it's frightful presence attack against ${enemy}. ${enemy} fails their save and is terrified!`)
+    console.log(`${this.name} the leviathan uses it's frightful presence attack against ${enemy}. ${enemy} fails their save and is terrified!`)
   }
 }

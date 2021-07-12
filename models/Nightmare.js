@@ -24,6 +24,6 @@ export default class Nightmare {
     console.log(`${player} summons a ${this.size} nightmare named ${this.name}.`)
   }
   nightmareAttack(enemy) {
-    console.log(`${this.name} uses it's hoove attack against ${enemy}. ${enemy} is looking pretty rough!`)
+    console.log(`${this.name} the nightmare uses it's hoof attack against ${enemy}. ${enemy} is looking pretty rough!`)
   }
 }
