@@ -22,7 +22,7 @@ export default class Aboleth {
   }
 
   abolethAttack(enemy) {
-    console.log(`${this.name} attacks ${enemy} with ${this.tentacleCount} tentacles!`)
+    console.log(`${this.name} the aboleth attacks ${enemy} with ${this.tentacleCount} tentacles!`)
   }
 
   telepathy(enemy) {

@@ -23,10 +23,10 @@ export default class FaerieDragon {
   }
 
   faerieHoard() {
-    console.log(`${this.name} loves to hoard ${this.hoardType}`)
+    console.log(`${this.name} the ${this.color} faerie dragon loves to hoard ${this.hoardType}`)
   }
 
   faerieAttack(enemy) {
-    console.log(`${this.name} attacks ${enemy} with a ${this.breathType} breath`)
+    console.log(`${this.name} the ${this.color} faerie dragon attacks ${enemy} with a ${this.breathType} breath`)
   }
 }

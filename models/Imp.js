@@ -22,10 +22,10 @@ export default class Imp {
   }
 
   impCatchPhrase() {
-    console.log(`${this.name} proudly says their iconic catchphrase: "${this.catchPhrase}"`)
+    console.log(`${this.name} the imp proudly says their iconic catchphrase: "${this.catchPhrase}"`)
   }
 
   impAttack(enemy) {
-    console.log(`What a fiend! The imp slashes you and says "You suck ${enemy}!"`)
+    console.log(`What a fiend! ${this.name} the imp slashes you and says "You suck ${enemy}!"`)
   }
 }

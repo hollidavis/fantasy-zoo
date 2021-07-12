@@ -2,18 +2,16 @@ export default class GreenDragon {
   /**
    * 
    * @param {String} name 
-   * @param {String} color 
    * @param {String} gender 
    * @param {String} hoardType
    */
   constructor(
     name,
-    color,
     gender,
     hoardType
   ) {
     this.name = name
-    this.color = color
+    this.color = 'green'
     this.gender = gender
     this.hoardType = hoardType
     this.breathType = 'poison'
@@ -23,10 +21,10 @@ export default class GreenDragon {
   }
 
   greenHoard() {
-    console.log(`${this.name} loves to hoard ${this.hoardType}`)
+    console.log(`${this.name} the ${this.color} dragon loves to hoard ${this.hoardType}`)
   }
 
   greenAttack(enemy) {
-    console.log(`${this.name} attacks ${enemy} with a ${this.breathType} breath`)
+    console.log(`${this.name} the ${this.color} dragon attacks ${enemy} with a ${this.breathType} breath`)
   }
 }

@@ -22,10 +22,10 @@ export default class Hydra {
   }
 
   hydraAttack(enemy) {
-    console.log(`${this.name} attacks ${enemy} with ${this.headCount} heads!`)
+    console.log(`${this.name} the hydra attacks ${enemy} with ${this.headCount} heads!`)
   }
 
   dance() {
-    console.log(`You watch as the hydra's ${this.headCount} ${this.color} heads start swaying to the beat`)
+    console.log(`You watch as the ${this.name} the hydra's ${this.headCount} ${this.color} heads start swaying to the beat. Groovy!`)
   }
 }

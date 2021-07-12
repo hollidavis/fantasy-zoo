@@ -21,9 +21,9 @@ export default class EarthElemental {
     this.environment = 'underdark'
   }
   summonElemental(player) {
-    console.log(`${player} summons a ${this.size} earth elemental. Watch out things are about to get rocky!`)
+    console.log(`${player} summons a ${this.size} earth elemental named ${this.name}. Watch out things are about to get rocky!`)
   }
   sprayElemental(player) {
-    console.log(`${player} sprays the earth elemental with water. Oh no! Now it's a mud elemental.`)
+    console.log(`${player} sprays ${this.name} the earth elemental with water. Oh no! Now it's a mud elemental.`)
   }
 }
