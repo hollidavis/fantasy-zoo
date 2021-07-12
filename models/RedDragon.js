@@ -22,11 +22,11 @@ export default class RedDragon {
     this.environment = 'mountain'
   }
 
-  greenHoard() {
+  redHoard() {
     console.log(`${this.name} loves to hoard ${this.hoardType}`)
   }
 
-  greenAttack(enemy) {
+  redAttack(enemy) {
     console.log(`${this.name} attacks ${enemy} with a ${this.breathType} breath`)
   }
 }
