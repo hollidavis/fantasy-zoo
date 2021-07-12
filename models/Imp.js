@@ -4,7 +4,7 @@ export default class Imp {
    * @param {String} name 
    * @param {String} color 
    * @param {String} gender 
-   * @param {Number} catchPhrase  
+   * @param {String} catchPhrase  
    */
   constructor(
     name,
