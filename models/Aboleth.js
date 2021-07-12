@@ -21,7 +21,7 @@ export default class Aboleth {
     this.environment = 'underdark'
   }
 
-  tentacleAttack(enemy) {
+  abolethAttack(enemy) {
     console.log(`${this.name} attacks ${enemy} with ${this.tentacleCount} tentacles!`)
   }
 
